@@ -1,6 +1,7 @@
 using SecurevilleComp;
 using System;
 using Xunit;
+using FluentAssertions;
 
 namespace SecurevilleCompTests
 {
@@ -21,8 +22,7 @@ namespace SecurevilleCompTests
 
             var result = conv.ConvertChar(input);
 
-            Assert.Equal(expected, result);
+            expected.Should().Be(result);
         }
-
     }
 }

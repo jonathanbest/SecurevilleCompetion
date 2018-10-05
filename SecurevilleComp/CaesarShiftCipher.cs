@@ -16,6 +16,7 @@ namespace SecurevilleComp
 
             value += OffSet;
 
+            //if the new value is outside the bounds then adjust
             if (value < 'A')
             {
                 value += 26;
