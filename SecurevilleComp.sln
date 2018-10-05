@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurevilleComp", "SecurevilleComp\SecurevilleComp.csproj", "{52D54EC4-8E9B-4218-A1FC-23CBAD87BF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurevilleCompTests", "SecurevillCompTests\SecurevilleCompTests.csproj", "{9FF6C5F2-5D0D-49FC-A87D-3F64DC97A4C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D54EC4-8E9B-4218-A1FC-23CBAD87BF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D54EC4-8E9B-4218-A1FC-23CBAD87BF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D54EC4-8E9B-4218-A1FC-23CBAD87BF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D54EC4-8E9B-4218-A1FC-23CBAD87BF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF6C5F2-5D0D-49FC-A87D-3F64DC97A4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF6C5F2-5D0D-49FC-A87D-3F64DC97A4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF6C5F2-5D0D-49FC-A87D-3F64DC97A4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF6C5F2-5D0D-49FC-A87D-3F64DC97A4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C91C22C-A5D4-4D65-9115-66FAB0DFDD44}
+	EndGlobalSection
+EndGlobal
