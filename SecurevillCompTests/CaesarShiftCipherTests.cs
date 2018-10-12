@@ -1,9 +1,7 @@
-using SecurevilleComp;
-using System;
-using Xunit;
 using FluentAssertions;
+using Xunit;
 
-namespace SecurevilleCompTests
+namespace SecurevilleComp.Tests
 {
     public class CaesarShiftCipherTests
     {
@@ -27,27 +25,6 @@ namespace SecurevilleCompTests
 
                 expected.Should().Be(result);
             }
-
-            [Fact]
-            public void Test1()
-            {
-                string expected = null;
-
-                var test = new MyClass();
-                var result = test.Convert("nathan");
-
-                expected?.Should().Be("nathan");
-
-            }
-
-            class MyClass
-            {
-                public string Convert(string input)
-                {
-                    return null;
-                }
-            }
-
         }
     }
 }
